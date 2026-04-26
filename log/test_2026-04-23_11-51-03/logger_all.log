@@ -1,0 +1,55 @@
+[0.344s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'test', '--packages-select', 'megoldas_sim24']
+[0.344s] DEBUG:colcon:Parsed command line arguments: Namespace(abort_on_error=False, allow_overriding=[], base_paths=['.'], build_base='build', ctest_args=None, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method TestVerb.main of <colcon_core.verb.test.TestVerb object at 0x7f5e9d7e85b0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['megoldas_sim24'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=16, paths=None, pytest_args=None, pytest_with_coverage=False, python_testing=None, retest_until_fail=0, retest_until_pass=0, return_code_on_test_failure=False, test_result_base=None, unittest_args=None, verb_extension=<colcon_core.verb.test.TestVerb object at 0x7f5e9d7e85b0>, verb_name='test', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f5e9d7fad00>)
+[0.474s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.474s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.475s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.475s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.475s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.475s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.475s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/mnt/c/Egyetem/Ösztöndíj/megoldas_sim24'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.494s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_python' and name 'megoldas_sim24'
+[0.494s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.494s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.494s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.495s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.495s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'megoldas_sim24' test argument 'ctest_args' from command line to 'None'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'megoldas_sim24' test argument 'python_testing' from command line to 'None'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'megoldas_sim24' test argument 'pytest_args' from command line to 'None'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'megoldas_sim24' test argument 'pytest_with_coverage' from command line to 'False'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'megoldas_sim24' test argument 'unittest_args' from command line to 'None'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'megoldas_sim24' test argument 'retest_until_pass' from command line to '0'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'megoldas_sim24' test argument 'retest_until_fail' from command line to '0'
+[0.501s] DEBUG:colcon.colcon_core.verb.test:Testing package 'megoldas_sim24' with the following arguments: {'build_base': '/mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/build/megoldas_sim24', 'ctest_args': None, 'install_base': '/mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/install/megoldas_sim24', 'path': '/mnt/c/Egyetem/Ösztöndíj/megoldas_sim24', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[0.501s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.502s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.502s] INFO:colcon.colcon_ros.task.ament_python.test:Testing ROS package in '/mnt/c/Egyetem/Ösztöndíj/megoldas_sim24' with build type'ament_python'
+[0.502s] INFO:colcon.colcon_core.task.python.test:Testing Python package in '/mnt/c/Egyetem/Ösztöndíj/megoldas_sim24'
+[0.507s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.507s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.507s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.512s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/adam/catkin_ws/devel'
+[0.513s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/noetic'
+[0.513s] ERROR:colcon.colcon_core.task.python.test:Failed to find the following files:
+- /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/install/megoldas_sim24/share/megoldas_sim24/package.sh
+Check that the following packages have been built:
+- megoldas_sim24
+[0.523s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.524s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.524s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[0.524s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.578s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[0.578s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.578s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.578s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.598s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[0.598s] DEBUG:colcon.colcon_core.event_reactor:joined thread

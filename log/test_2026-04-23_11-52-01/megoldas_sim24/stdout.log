@@ -1,0 +1,39 @@
+[1m============================= test session starts ==============================[0m
+platform linux -- Python 3.8.10, pytest-4.6.9, py-1.8.1, pluggy-0.13.0
+cachedir: build/megoldas_sim24/.pytest_cache
+rootdir: /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24
+plugins: launch-testing-ros-0.11.7, ament-flake8-0.9.8, launch-testing-0.10.10, ament-lint-0.9.8, ament-xmllint-0.9.8, ament-pep257-0.9.8, ament-copyright-0.9.8, cov-2.8.1, colcon-core-0.20.1
+[1mcollecting ... [0m[1m
+collecting 0 items / 1 errors                                                  [0m[1m
+collected 0 items / 1 errors                                                   [0m
+
+==================================== ERRORS ====================================
+[31m[1m________________________ ERROR collecting test session _________________________[0m
+[1m[31m/usr/lib/python3/dist-packages/pluggy/hooks.py[0m:286: in __call__
+[1m    return self._hookexec(self, self.get_hookimpls(), kwargs)[0m
+[1m[31m/usr/lib/python3/dist-packages/pluggy/manager.py[0m:92: in _hookexec
+[1m    return self._inner_hookexec(hook, methods, kwargs)[0m
+[1m[31m/usr/lib/python3/dist-packages/pluggy/manager.py[0m:83: in <lambda>
+[1m    self._inner_hookexec = lambda hook, methods, kwargs: hook.multicall([0m
+[1m[31m/usr/lib/python3/dist-packages/_pytest/python.py[0m:187: in pytest_collect_file
+[1m    return ihook.pytest_pycollect_makemodule(path=path, parent=parent)[0m
+[1m[31m/usr/lib/python3/dist-packages/pluggy/hooks.py[0m:286: in __call__
+[1m    return self._hookexec(self, self.get_hookimpls(), kwargs)[0m
+[1m[31m/usr/lib/python3/dist-packages/pluggy/manager.py[0m:92: in _hookexec
+[1m    return self._inner_hookexec(hook, methods, kwargs)[0m
+[1m[31m/usr/lib/python3/dist-packages/pluggy/manager.py[0m:83: in <lambda>
+[1m    self._inner_hookexec = lambda hook, methods, kwargs: hook.multicall([0m
+[1m[31m/opt/ros/foxy/lib/python3.8/site-packages/launch_testing/pytest/hooks.py[0m:188: in pytest_pycollect_makemodule
+[1m    entrypoint = find_launch_test_entrypoint(path)[0m
+[1m[31m/opt/ros/foxy/lib/python3.8/site-packages/launch_testing/pytest/hooks.py[0m:181: in find_launch_test_entrypoint
+[1m    module = path.pyimport()[0m
+[1m[31m/usr/lib/python3/dist-packages/py/_path/local.py[0m:701: in pyimport
+[1m    __import__(modname)[0m
+[1m[31m/usr/lib/python3/dist-packages/_pytest/assertion/rewrite.py[0m:304: in load_module
+[1m    exec(co, mod.__dict__)[0m
+[1m[31mtests/test_simple_pursuit_integration.py[0m:20: in <module>
+[1m    from rclpy.executors import SingleThreadedExecutor[0m
+[1m[31mE   ModuleNotFoundError: No module named 'rclpy.executors'; 'rclpy' is not a package[0m
+- generated xml file: /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/build/megoldas_sim24/pytest.xml -
+!!!!!!!!!!!!!!!!!!! Interrupted: 1 errors during collection !!!!!!!!!!!!!!!!!!!!
+[31m[1m===================== 1 warnings, 1 error in 1.82 seconds ======================[0m

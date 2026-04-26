@@ -1,0 +1,6 @@
+source;share/megoldas_sim24/hook/pythonpath.ps1
+source;share/megoldas_sim24/hook/pythonpath.dsv
+source;share/megoldas_sim24/hook/pythonpath.sh
+source;share/megoldas_sim24/hook/ament_prefix_path.ps1
+source;share/megoldas_sim24/hook/ament_prefix_path.dsv
+source;share/megoldas_sim24/hook/ament_prefix_path.sh

@@ -1,0 +1,47 @@
+running egg_info
+creating build/megoldas_sim24/megoldas_sim24.egg-info
+writing build/megoldas_sim24/megoldas_sim24.egg-info/PKG-INFO
+writing dependency_links to build/megoldas_sim24/megoldas_sim24.egg-info/dependency_links.txt
+writing entry points to build/megoldas_sim24/megoldas_sim24.egg-info/entry_points.txt
+writing requirements to build/megoldas_sim24/megoldas_sim24.egg-info/requires.txt
+writing top-level names to build/megoldas_sim24/megoldas_sim24.egg-info/top_level.txt
+writing manifest file 'build/megoldas_sim24/megoldas_sim24.egg-info/SOURCES.txt'
+reading manifest file 'build/megoldas_sim24/megoldas_sim24.egg-info/SOURCES.txt'
+writing manifest file 'build/megoldas_sim24/megoldas_sim24.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/build/megoldas_sim24/build
+creating /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/build/megoldas_sim24/build/lib
+creating /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/build/megoldas_sim24/build/lib/megoldas_sim24
+copying megoldas_sim24/follow_the_gap.py -> /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/build/megoldas_sim24/build/lib/megoldas_sim24
+copying megoldas_sim24/joystick_teleop.py -> /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/build/megoldas_sim24/build/lib/megoldas_sim24
+copying megoldas_sim24/simple_pursuit.py -> /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/build/megoldas_sim24/build/lib/megoldas_sim24
+copying megoldas_sim24/__init__.py -> /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/build/megoldas_sim24/build/lib/megoldas_sim24
+running install
+running install_lib
+creating /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/install/megoldas_sim24/lib/python3.8/site-packages/megoldas_sim24
+copying /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/build/megoldas_sim24/build/lib/megoldas_sim24/follow_the_gap.py -> /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/install/megoldas_sim24/lib/python3.8/site-packages/megoldas_sim24
+copying /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/build/megoldas_sim24/build/lib/megoldas_sim24/joystick_teleop.py -> /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/install/megoldas_sim24/lib/python3.8/site-packages/megoldas_sim24
+copying /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/build/megoldas_sim24/build/lib/megoldas_sim24/simple_pursuit.py -> /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/install/megoldas_sim24/lib/python3.8/site-packages/megoldas_sim24
+copying /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/build/megoldas_sim24/build/lib/megoldas_sim24/__init__.py -> /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/install/megoldas_sim24/lib/python3.8/site-packages/megoldas_sim24
+byte-compiling /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/install/megoldas_sim24/lib/python3.8/site-packages/megoldas_sim24/follow_the_gap.py to follow_the_gap.cpython-38.pyc
+byte-compiling /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/install/megoldas_sim24/lib/python3.8/site-packages/megoldas_sim24/joystick_teleop.py to joystick_teleop.cpython-38.pyc
+byte-compiling /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/install/megoldas_sim24/lib/python3.8/site-packages/megoldas_sim24/simple_pursuit.py to simple_pursuit.cpython-38.pyc
+byte-compiling /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/install/megoldas_sim24/lib/python3.8/site-packages/megoldas_sim24/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/install/megoldas_sim24/share/ament_index
+creating /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/install/megoldas_sim24/share/ament_index/resource_index
+creating /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/install/megoldas_sim24/share/ament_index/resource_index/packages
+copying resource/megoldas_sim24 -> /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/install/megoldas_sim24/share/ament_index/resource_index/packages
+copying package.xml -> /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/install/megoldas_sim24/share/megoldas_sim24
+copying launch/joy_teleop.launch.py -> /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/install/megoldas_sim24/share/megoldas_sim24
+copying launch/megoldas1.launch.py -> /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/install/megoldas_sim24/share/megoldas_sim24
+copying launch/megoldas2.launch.py -> /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/install/megoldas_sim24/share/megoldas_sim24
+copying launch/string_rviz_overlay.launch.py -> /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/install/megoldas_sim24/share/megoldas_sim24
+running install_egg_info
+Copying build/megoldas_sim24/megoldas_sim24.egg-info to /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/install/megoldas_sim24/lib/python3.8/site-packages/megoldas_sim24-0.0.0-py3.8.egg-info
+running install_scripts
+Installing follow_the_gap.py script to /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/install/megoldas_sim24/lib/megoldas_sim24
+Installing joystick_teleop_node script to /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/install/megoldas_sim24/lib/megoldas_sim24
+Installing simple_pursuit.py script to /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/install/megoldas_sim24/lib/megoldas_sim24
+writing list of installed files to '/mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/build/megoldas_sim24/install.log'

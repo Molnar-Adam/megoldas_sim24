@@ -1,0 +1,79 @@
+[0.000000] (-) TimerEvent: {}
+[0.000483] (megoldas_sim24) JobQueued: {'identifier': 'megoldas_sim24', 'dependencies': OrderedDict()}
+[0.000909] (megoldas_sim24) JobStarted: {'identifier': 'megoldas_sim24'}
+[0.100504] (-) TimerEvent: {}
+[0.201776] (-) TimerEvent: {}
+[0.304290] (-) TimerEvent: {}
+[0.408048] (-) TimerEvent: {}
+[0.511636] (-) TimerEvent: {}
+[0.613819] (-) TimerEvent: {}
+[0.715546] (-) TimerEvent: {}
+[0.818417] (-) TimerEvent: {}
+[0.922237] (-) TimerEvent: {}
+[1.026067] (-) TimerEvent: {}
+[1.128541] (-) TimerEvent: {}
+[1.152963] (megoldas_sim24) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', 'build/megoldas_sim24', 'build', '--build-base', '/mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/build/megoldas_sim24/build', 'install', '--record', '/mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/build/megoldas_sim24/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/mnt/c/Egyetem/Ösztöndíj/megoldas_sim24', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'adam', 'ROS_PACKAGE_PATH': '/home/adam/catkin_ws/src:/opt/ros/noetic/share', 'ROS_APT_SOURCE_VERSION': '1.2.0', 'ROS_ETC_DIR': '/opt/ros/noetic/etc/ros', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/adam/catkin_ws/devel/lib:/opt/ros/noetic/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/adam', 'OLDPWD': '/home/adam', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-20.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'adam', 'NAME': 'DESKTOP-LK7GEBN', 'WSL_INTEROP': '/run/WSL/665_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/adam/catkin_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/opt/ros/noetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/ProgramData/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Razer Chroma SDK/bin:/mnt/c/Program Files/Razer Chroma SDK/bin:/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin:/mnt/c/Program Files/Razer/ChromaBroadcast/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Users/Ádám/AppData/Local/Microsoft/WindowsApps:/mnt/c/Windows/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Users/Ádám/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/Ádám/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Shibboleth/SP/lib:/mnt/c/Program Files (x86)/Shibboleth/SP/lib:/mnt/c/Program Files/Nefarius Software Solutions/Nefarius VirtualPad Driver Runtime/runtime/x64:/mnt/c/Users/Ádám/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/Ádám/AppData/Local/Programs/Python/Python311/:/mnt/d/PyCharm Community Edition 2024.2.4/bin:/mnt/c/Users/Ádám/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Ádám/AppData/Roaming/npm:/mnt/c/Users/Ádám/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Ádám/.dotnet/tools:/mnt/d/PyCharm 2024.3.4/bin:/mnt/d/steam/steamapps/common/DSX/Main_v3_Beta/:/mnt/d/steam/steamapps/common/DSX/Main_v3_Beta/Console:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/adam/catkin_ws/devel/share/common-lisp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_ROOT': '/opt/ros/noetic/share/ros', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'ROS_MASTER_URI': 'http://localhost:11311', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/build/megoldas_sim24', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/build/megoldas_sim24/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/install/megoldas_sim24/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/adam/catkin_ws/devel:/opt/ros/noetic', 'WSLENV': ''}, 'shell': False}
+[1.229017] (-) TimerEvent: {}
+[1.330462] (-) TimerEvent: {}
+[1.434138] (-) TimerEvent: {}
+[1.536425] (-) TimerEvent: {}
+[1.636050] (megoldas_sim24) StdoutLine: {'line': b'running egg_info\n'}
+[1.636764] (-) TimerEvent: {}
+[1.639853] (megoldas_sim24) StdoutLine: {'line': b'creating build/megoldas_sim24/megoldas_sim24.egg-info\n'}
+[1.642349] (megoldas_sim24) StdoutLine: {'line': b'writing build/megoldas_sim24/megoldas_sim24.egg-info/PKG-INFO\n'}
+[1.648857] (megoldas_sim24) StdoutLine: {'line': b'writing dependency_links to build/megoldas_sim24/megoldas_sim24.egg-info/dependency_links.txt\n'}
+[1.653093] (megoldas_sim24) StdoutLine: {'line': b'writing entry points to build/megoldas_sim24/megoldas_sim24.egg-info/entry_points.txt\n'}
+[1.657957] (megoldas_sim24) StdoutLine: {'line': b'writing requirements to build/megoldas_sim24/megoldas_sim24.egg-info/requires.txt\n'}
+[1.660299] (megoldas_sim24) StdoutLine: {'line': b'writing top-level names to build/megoldas_sim24/megoldas_sim24.egg-info/top_level.txt\n'}
+[1.670203] (megoldas_sim24) StdoutLine: {'line': b"writing manifest file 'build/megoldas_sim24/megoldas_sim24.egg-info/SOURCES.txt'\n"}
+[1.727381] (megoldas_sim24) StdoutLine: {'line': b"reading manifest file 'build/megoldas_sim24/megoldas_sim24.egg-info/SOURCES.txt'\n"}
+[1.737154] (-) TimerEvent: {}
+[1.769607] (megoldas_sim24) StdoutLine: {'line': b"writing manifest file 'build/megoldas_sim24/megoldas_sim24.egg-info/SOURCES.txt'\n"}
+[1.772010] (megoldas_sim24) StdoutLine: {'line': b'running build\n'}
+[1.773116] (megoldas_sim24) StdoutLine: {'line': b'running build_py\n'}
+[1.777225] (megoldas_sim24) StdoutLine: {'line': b'creating /mnt/c/Egyetem/\xc3\x96szt\xc3\xb6nd\xc3\xadj/megoldas_sim24/build/megoldas_sim24/build\n'}
+[1.778840] (megoldas_sim24) StdoutLine: {'line': b'creating /mnt/c/Egyetem/\xc3\x96szt\xc3\xb6nd\xc3\xadj/megoldas_sim24/build/megoldas_sim24/build/lib\n'}
+[1.780593] (megoldas_sim24) StdoutLine: {'line': b'creating /mnt/c/Egyetem/\xc3\x96szt\xc3\xb6nd\xc3\xadj/megoldas_sim24/build/megoldas_sim24/build/lib/megoldas_sim24\n'}
+[1.787136] (megoldas_sim24) StdoutLine: {'line': b'copying megoldas_sim24/follow_the_gap.py -> /mnt/c/Egyetem/\xc3\x96szt\xc3\xb6nd\xc3\xadj/megoldas_sim24/build/megoldas_sim24/build/lib/megoldas_sim24\n'}
+[1.801722] (megoldas_sim24) StdoutLine: {'line': b'copying megoldas_sim24/joystick_teleop.py -> /mnt/c/Egyetem/\xc3\x96szt\xc3\xb6nd\xc3\xadj/megoldas_sim24/build/megoldas_sim24/build/lib/megoldas_sim24\n'}
+[1.818994] (megoldas_sim24) StdoutLine: {'line': b'copying megoldas_sim24/simple_pursuit.py -> /mnt/c/Egyetem/\xc3\x96szt\xc3\xb6nd\xc3\xadj/megoldas_sim24/build/megoldas_sim24/build/lib/megoldas_sim24\n'}
+[1.837874] (-) TimerEvent: {}
+[1.838204] (megoldas_sim24) StdoutLine: {'line': b'copying megoldas_sim24/__init__.py -> /mnt/c/Egyetem/\xc3\x96szt\xc3\xb6nd\xc3\xadj/megoldas_sim24/build/megoldas_sim24/build/lib/megoldas_sim24\n'}
+[1.848922] (megoldas_sim24) StdoutLine: {'line': b'running install\n'}
+[1.854819] (megoldas_sim24) StdoutLine: {'line': b'running install_lib\n'}
+[1.881453] (megoldas_sim24) StdoutLine: {'line': b'creating /mnt/c/Egyetem/\xc3\x96szt\xc3\xb6nd\xc3\xadj/megoldas_sim24/install/megoldas_sim24/lib/python3.8/site-packages/megoldas_sim24\n'}
+[1.897360] (megoldas_sim24) StdoutLine: {'line': b'copying /mnt/c/Egyetem/\xc3\x96szt\xc3\xb6nd\xc3\xadj/megoldas_sim24/build/megoldas_sim24/build/lib/megoldas_sim24/follow_the_gap.py -> /mnt/c/Egyetem/\xc3\x96szt\xc3\xb6nd\xc3\xadj/megoldas_sim24/install/megoldas_sim24/lib/python3.8/site-packages/megoldas_sim24\n'}
+[1.928864] (megoldas_sim24) StdoutLine: {'line': b'copying /mnt/c/Egyetem/\xc3\x96szt\xc3\xb6nd\xc3\xadj/megoldas_sim24/build/megoldas_sim24/build/lib/megoldas_sim24/joystick_teleop.py -> /mnt/c/Egyetem/\xc3\x96szt\xc3\xb6nd\xc3\xadj/megoldas_sim24/install/megoldas_sim24/lib/python3.8/site-packages/megoldas_sim24\n'}
+[1.938289] (-) TimerEvent: {}
+[1.962276] (megoldas_sim24) StdoutLine: {'line': b'copying /mnt/c/Egyetem/\xc3\x96szt\xc3\xb6nd\xc3\xadj/megoldas_sim24/build/megoldas_sim24/build/lib/megoldas_sim24/simple_pursuit.py -> /mnt/c/Egyetem/\xc3\x96szt\xc3\xb6nd\xc3\xadj/megoldas_sim24/install/megoldas_sim24/lib/python3.8/site-packages/megoldas_sim24\n'}
+[1.988005] (megoldas_sim24) StdoutLine: {'line': b'copying /mnt/c/Egyetem/\xc3\x96szt\xc3\xb6nd\xc3\xadj/megoldas_sim24/build/megoldas_sim24/build/lib/megoldas_sim24/__init__.py -> /mnt/c/Egyetem/\xc3\x96szt\xc3\xb6nd\xc3\xadj/megoldas_sim24/install/megoldas_sim24/lib/python3.8/site-packages/megoldas_sim24\n'}
+[2.007516] (megoldas_sim24) StdoutLine: {'line': b'byte-compiling /mnt/c/Egyetem/\xc3\x96szt\xc3\xb6nd\xc3\xadj/megoldas_sim24/install/megoldas_sim24/lib/python3.8/site-packages/megoldas_sim24/follow_the_gap.py to follow_the_gap.cpython-38.pyc\n'}
+[2.032652] (megoldas_sim24) StdoutLine: {'line': b'byte-compiling /mnt/c/Egyetem/\xc3\x96szt\xc3\xb6nd\xc3\xadj/megoldas_sim24/install/megoldas_sim24/lib/python3.8/site-packages/megoldas_sim24/joystick_teleop.py to joystick_teleop.cpython-38.pyc\n'}
+[2.038550] (-) TimerEvent: {}
+[2.061058] (megoldas_sim24) StdoutLine: {'line': b'byte-compiling /mnt/c/Egyetem/\xc3\x96szt\xc3\xb6nd\xc3\xadj/megoldas_sim24/install/megoldas_sim24/lib/python3.8/site-packages/megoldas_sim24/simple_pursuit.py to simple_pursuit.cpython-38.pyc\n'}
+[2.090138] (megoldas_sim24) StdoutLine: {'line': b'byte-compiling /mnt/c/Egyetem/\xc3\x96szt\xc3\xb6nd\xc3\xadj/megoldas_sim24/install/megoldas_sim24/lib/python3.8/site-packages/megoldas_sim24/__init__.py to __init__.cpython-38.pyc\n'}
+[2.113289] (megoldas_sim24) StdoutLine: {'line': b'running install_data\n'}
+[2.117772] (megoldas_sim24) StdoutLine: {'line': b'creating /mnt/c/Egyetem/\xc3\x96szt\xc3\xb6nd\xc3\xadj/megoldas_sim24/install/megoldas_sim24/share/ament_index\n'}
+[2.119637] (megoldas_sim24) StdoutLine: {'line': b'creating /mnt/c/Egyetem/\xc3\x96szt\xc3\xb6nd\xc3\xadj/megoldas_sim24/install/megoldas_sim24/share/ament_index/resource_index\n'}
+[2.121458] (megoldas_sim24) StdoutLine: {'line': b'creating /mnt/c/Egyetem/\xc3\x96szt\xc3\xb6nd\xc3\xadj/megoldas_sim24/install/megoldas_sim24/share/ament_index/resource_index/packages\n'}
+[2.129220] (megoldas_sim24) StdoutLine: {'line': b'copying resource/megoldas_sim24 -> /mnt/c/Egyetem/\xc3\x96szt\xc3\xb6nd\xc3\xadj/megoldas_sim24/install/megoldas_sim24/share/ament_index/resource_index/packages\n'}
+[2.138969] (-) TimerEvent: {}
+[2.144379] (megoldas_sim24) StdoutLine: {'line': b'copying package.xml -> /mnt/c/Egyetem/\xc3\x96szt\xc3\xb6nd\xc3\xadj/megoldas_sim24/install/megoldas_sim24/share/megoldas_sim24\n'}
+[2.157389] (megoldas_sim24) StdoutLine: {'line': b'copying launch/joy_teleop.launch.py -> /mnt/c/Egyetem/\xc3\x96szt\xc3\xb6nd\xc3\xadj/megoldas_sim24/install/megoldas_sim24/share/megoldas_sim24\n'}
+[2.168374] (megoldas_sim24) StdoutLine: {'line': b'copying launch/megoldas1.launch.py -> /mnt/c/Egyetem/\xc3\x96szt\xc3\xb6nd\xc3\xadj/megoldas_sim24/install/megoldas_sim24/share/megoldas_sim24\n'}
+[2.181620] (megoldas_sim24) StdoutLine: {'line': b'copying launch/megoldas2.launch.py -> /mnt/c/Egyetem/\xc3\x96szt\xc3\xb6nd\xc3\xadj/megoldas_sim24/install/megoldas_sim24/share/megoldas_sim24\n'}
+[2.194243] (megoldas_sim24) StdoutLine: {'line': b'copying launch/string_rviz_overlay.launch.py -> /mnt/c/Egyetem/\xc3\x96szt\xc3\xb6nd\xc3\xadj/megoldas_sim24/install/megoldas_sim24/share/megoldas_sim24\n'}
+[2.202559] (megoldas_sim24) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.213780] (megoldas_sim24) StdoutLine: {'line': b'Copying build/megoldas_sim24/megoldas_sim24.egg-info to /mnt/c/Egyetem/\xc3\x96szt\xc3\xb6nd\xc3\xadj/megoldas_sim24/install/megoldas_sim24/lib/python3.8/site-packages/megoldas_sim24-0.0.0-py3.8.egg-info\n'}
+[2.239106] (-) TimerEvent: {}
+[2.342191] (-) TimerEvent: {}
+[2.363166] (megoldas_sim24) StdoutLine: {'line': b'running install_scripts\n'}
+[2.396228] (megoldas_sim24) StdoutLine: {'line': b'Installing follow_the_gap.py script to /mnt/c/Egyetem/\xc3\x96szt\xc3\xb6nd\xc3\xadj/megoldas_sim24/install/megoldas_sim24/lib/megoldas_sim24\n'}
+[2.401519] (megoldas_sim24) StdoutLine: {'line': b'Installing joystick_teleop_node script to /mnt/c/Egyetem/\xc3\x96szt\xc3\xb6nd\xc3\xadj/megoldas_sim24/install/megoldas_sim24/lib/megoldas_sim24\n'}
+[2.410320] (megoldas_sim24) StdoutLine: {'line': b'Installing simple_pursuit.py script to /mnt/c/Egyetem/\xc3\x96szt\xc3\xb6nd\xc3\xadj/megoldas_sim24/install/megoldas_sim24/lib/megoldas_sim24\n'}
+[2.420098] (megoldas_sim24) StdoutLine: {'line': b"writing list of installed files to '/mnt/c/Egyetem/\xc3\x96szt\xc3\xb6nd\xc3\xadj/megoldas_sim24/build/megoldas_sim24/install.log'\n"}
+[2.437051] (megoldas_sim24) CommandEnded: {'returncode': 0}
+[2.442422] (-) TimerEvent: {}
+[2.544222] (-) TimerEvent: {}
+[2.594279] (megoldas_sim24) JobEnded: {'identifier': 'megoldas_sim24', 'rc': 0}
+[2.602329] (-) EventReactorShutdown: {}

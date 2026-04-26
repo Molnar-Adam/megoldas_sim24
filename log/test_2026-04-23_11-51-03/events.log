@@ -1,0 +1,5 @@
+[0.000000] (-) TimerEvent: {}
+[0.000300] (megoldas_sim24) JobQueued: {'identifier': 'megoldas_sim24', 'dependencies': OrderedDict([('megoldas_sim24', '/mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/install/megoldas_sim24')])}
+[0.000470] (megoldas_sim24) JobStarted: {'identifier': 'megoldas_sim24'}
+[0.010718] (megoldas_sim24) JobEnded: {'identifier': 'megoldas_sim24', 'rc': 1}
+[0.021600] (-) EventReactorShutdown: {}

@@ -1,0 +1,49 @@
+[1.164s] Invoking command in '/mnt/c/Egyetem/Ösztöndíj/megoldas_sim24': PYTHONPATH=/mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/build/megoldas_sim24/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/install/megoldas_sim24/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/megoldas_sim24 build --build-base /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/build/megoldas_sim24/build install --record /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/build/megoldas_sim24/install.log --single-version-externally-managed install_data
+[1.636s] running egg_info
+[1.639s] creating build/megoldas_sim24/megoldas_sim24.egg-info
+[1.642s] writing build/megoldas_sim24/megoldas_sim24.egg-info/PKG-INFO
+[1.648s] writing dependency_links to build/megoldas_sim24/megoldas_sim24.egg-info/dependency_links.txt
+[1.652s] writing entry points to build/megoldas_sim24/megoldas_sim24.egg-info/entry_points.txt
+[1.657s] writing requirements to build/megoldas_sim24/megoldas_sim24.egg-info/requires.txt
+[1.660s] writing top-level names to build/megoldas_sim24/megoldas_sim24.egg-info/top_level.txt
+[1.670s] writing manifest file 'build/megoldas_sim24/megoldas_sim24.egg-info/SOURCES.txt'
+[1.727s] reading manifest file 'build/megoldas_sim24/megoldas_sim24.egg-info/SOURCES.txt'
+[1.769s] writing manifest file 'build/megoldas_sim24/megoldas_sim24.egg-info/SOURCES.txt'
+[1.772s] running build
+[1.772s] running build_py
+[1.777s] creating /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/build/megoldas_sim24/build
+[1.778s] creating /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/build/megoldas_sim24/build/lib
+[1.780s] creating /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/build/megoldas_sim24/build/lib/megoldas_sim24
+[1.787s] copying megoldas_sim24/follow_the_gap.py -> /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/build/megoldas_sim24/build/lib/megoldas_sim24
+[1.801s] copying megoldas_sim24/joystick_teleop.py -> /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/build/megoldas_sim24/build/lib/megoldas_sim24
+[1.819s] copying megoldas_sim24/simple_pursuit.py -> /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/build/megoldas_sim24/build/lib/megoldas_sim24
+[1.838s] copying megoldas_sim24/__init__.py -> /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/build/megoldas_sim24/build/lib/megoldas_sim24
+[1.849s] running install
+[1.854s] running install_lib
+[1.881s] creating /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/install/megoldas_sim24/lib/python3.8/site-packages/megoldas_sim24
+[1.897s] copying /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/build/megoldas_sim24/build/lib/megoldas_sim24/follow_the_gap.py -> /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/install/megoldas_sim24/lib/python3.8/site-packages/megoldas_sim24
+[1.928s] copying /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/build/megoldas_sim24/build/lib/megoldas_sim24/joystick_teleop.py -> /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/install/megoldas_sim24/lib/python3.8/site-packages/megoldas_sim24
+[1.962s] copying /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/build/megoldas_sim24/build/lib/megoldas_sim24/simple_pursuit.py -> /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/install/megoldas_sim24/lib/python3.8/site-packages/megoldas_sim24
+[1.987s] copying /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/build/megoldas_sim24/build/lib/megoldas_sim24/__init__.py -> /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/install/megoldas_sim24/lib/python3.8/site-packages/megoldas_sim24
+[2.007s] byte-compiling /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/install/megoldas_sim24/lib/python3.8/site-packages/megoldas_sim24/follow_the_gap.py to follow_the_gap.cpython-38.pyc
+[2.032s] byte-compiling /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/install/megoldas_sim24/lib/python3.8/site-packages/megoldas_sim24/joystick_teleop.py to joystick_teleop.cpython-38.pyc
+[2.061s] byte-compiling /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/install/megoldas_sim24/lib/python3.8/site-packages/megoldas_sim24/simple_pursuit.py to simple_pursuit.cpython-38.pyc
+[2.090s] byte-compiling /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/install/megoldas_sim24/lib/python3.8/site-packages/megoldas_sim24/__init__.py to __init__.cpython-38.pyc
+[2.113s] running install_data
+[2.117s] creating /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/install/megoldas_sim24/share/ament_index
+[2.119s] creating /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/install/megoldas_sim24/share/ament_index/resource_index
+[2.121s] creating /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/install/megoldas_sim24/share/ament_index/resource_index/packages
+[2.129s] copying resource/megoldas_sim24 -> /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/install/megoldas_sim24/share/ament_index/resource_index/packages
+[2.144s] copying package.xml -> /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/install/megoldas_sim24/share/megoldas_sim24
+[2.157s] copying launch/joy_teleop.launch.py -> /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/install/megoldas_sim24/share/megoldas_sim24
+[2.168s] copying launch/megoldas1.launch.py -> /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/install/megoldas_sim24/share/megoldas_sim24
+[2.181s] copying launch/megoldas2.launch.py -> /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/install/megoldas_sim24/share/megoldas_sim24
+[2.194s] copying launch/string_rviz_overlay.launch.py -> /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/install/megoldas_sim24/share/megoldas_sim24
+[2.202s] running install_egg_info
+[2.213s] Copying build/megoldas_sim24/megoldas_sim24.egg-info to /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/install/megoldas_sim24/lib/python3.8/site-packages/megoldas_sim24-0.0.0-py3.8.egg-info
+[2.363s] running install_scripts
+[2.396s] Installing follow_the_gap.py script to /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/install/megoldas_sim24/lib/megoldas_sim24
+[2.401s] Installing joystick_teleop_node script to /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/install/megoldas_sim24/lib/megoldas_sim24
+[2.410s] Installing simple_pursuit.py script to /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/install/megoldas_sim24/lib/megoldas_sim24
+[2.420s] writing list of installed files to '/mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/build/megoldas_sim24/install.log'
+[2.437s] Invoked command in '/mnt/c/Egyetem/Ösztöndíj/megoldas_sim24' returned '0': PYTHONPATH=/mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/build/megoldas_sim24/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/install/megoldas_sim24/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/megoldas_sim24 build --build-base /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/build/megoldas_sim24/build install --record /mnt/c/Egyetem/Ösztöndíj/megoldas_sim24/build/megoldas_sim24/install.log --single-version-externally-managed install_data
